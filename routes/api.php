@@ -25,3 +25,7 @@ Route::group(['prefix' => 'students'], function() {
     Route::get('/', 'ApiController@getAllStudents');
     Route::get('/{id}', 'ApiController@getStudent');
 });
+
+Route::group(['prefix' => 'institutions'], function () {
+    Route::get('/', 'ApiController@getAllInstitutions');
+});

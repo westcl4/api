@@ -21,7 +21,8 @@ class StudentSeeder extends Seeder
                 'first_name' => $obj->first_name,
                 'last_name' => $obj->last_name,
                 'phone_number' => $obj->phone_number,
-                'email_address' => $obj->email_address
+                'email_address' => $obj->email_address,
+                'institution_id' => $obj->institution_id
             ));
         } 
     }
